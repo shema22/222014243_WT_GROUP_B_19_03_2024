@@ -1,0 +1,78 @@
+/* web technology assignment on css linked with html ,done on 19th, march 2024 -- this is about css with its comment on css work sheet*/
+
+/* body css style */
+body {
+	font-family: Arial, sans-serif; /* Set default font family */
+	margin: 0; /* Remove default margin */
+	padding: 0; /* Remove default padding */
+}
+/* header css style */
+header {
+	background-color: lightsteelblue; /* Background color for header */
+	padding: 20px; /* Padding for header */
+}
+/* nav css style */
+nav {
+	display: flex; /* Use flexbox for navigation */
+	justify-content: space-between; /* Align items in navigation */
+}
+/* nav with ul css style */
+nav ul {
+	list-style: none; /* Remove default list style */
+	margin: 0; /* Remove default margin */
+	padding: 0; /* Remove default padding */
+}
+/* nav with list css style */
+nav li {
+	display: inline-block; /* Display navigation items horizontally */
+	margin-right: 20px; /* Spacing between navigation items */
+}
+
+nav a {
+	text-decoration: none; /* Remove underline from links */
+	color: white; /* Default link color */
+}
+
+nav a:hover {
+	color: #333; /* Change link color on hover */
+}
+
+.dropdown {
+	position: right; /* Position dropdown menu to the right */
+	display: inline-block; /* Display dropdown inline with other elements */
+	direction: rtl; /* Set direction of text to right-to-left */
+}
+
+.dropdown-contents {
+	display: none; /* Hide dropdown content by default */
+	position: absolute; /* Position dropdown content absolutely */
+	background-color: #f1f1f1; /* Background color for dropdown content */
+	min-width: 160px; /* Set minimum width for dropdown content */
+	box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2); /* Add box shadow to dropdown */
+	z-index: 1; /* Set z-index to ensure dropdown is above other elements */
+}
+
+.dropdown-contents a {
+	color: black; /* Default color for dropdown links */
+	padding: 12px 16px; /* Padding for dropdown links */
+	text-decoration: none; /* Remove underline from dropdown links */
+	display: block; /* Display dropdown links as block elements */
+}
+
+.dropdown-contents a:hover {
+	background-color: whitesmoke; /* Change background color of dropdown link on hover */
+}
+
+.dropdown:hover .dropdown-contents {
+	display: block; /* Display dropdown content when parent is hovered */
+}
+
+section {
+	padding: 20px; /* Add padding to sections */
+	border-bottom: 1px solid #ddd; /* Add bottom border to sections */
+}
+
+footer {
+	text-align: center; /* Align text in footer to center */
+	padding: 20px; /* Add padding to footer */
+	background-color: lightsteelblue; /* Background color for footer */
